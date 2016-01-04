@@ -25,16 +25,14 @@ h6 {
     letter-spacing: 1px;
 }
 
-p {
-    font-size: 1.25em;
-    line-height: 1.6;
-    color: #000;
-}
 
-.panel-body {
-  font-size: 1em;
-  line-height: 1.6;
-  color: #000;
+
+p {
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1.25em;
+    line-height: 1;
+    color: #000;
+    text-align: left;
 }
 
 hr {
