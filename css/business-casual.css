@@ -27,7 +27,8 @@ h6 {
 
 
 
-p {
+p,
+li {
     font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 1.25em;
     line-height: 1;
