@@ -28,6 +28,19 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
+
 </head>
 
 <body>
@@ -61,24 +74,25 @@
                     <li><a href="project.html">| <small> Our Project</small> |</a></li>
                     <li><a href="participate.html">| <small> Participate</small> |</a></li>
                     <li><a href="FAQ.html">| <small> FAQ</small> |</a></li>
+                </ul>
             </div>
             <!-- /.navbar-collapse -->
           </div>
         </div><!-- end row -->
       </div><!-- end container -->
     </nav>
-    <!--End of Navbar--!>
+    <!--End of Navbar-->
 
-    <div class="container">
+    <div class="container"> <!--the transparent box underneath all main content-->
         <div class="row">
             <div class="box">
                 <div class="col-lg-12 text-center">
-                
+
                   <h2>WELCOME TO</h2>
 
                   <hr class="tagline-divider">
                     <h3 class="intro-text text-center">SOUNDS OF <strong>SATISFACTION</strong>
-                    </h3>      
+                    </h3>
                   <hr>
 
                   <h2>
@@ -86,6 +100,11 @@
                           <strong>John k. Sakaluk & Emily A. Impett</strong>
                       </small>
                   </h2>
+
+          <div class="row">  <!--the white box under the carousel and text-->
+            <div class="box">
+                <div class="col-lg-12">
+                  <div class="col-lg-8"> <!--change size of carousel-->
 
                     <div id="carousel-example-generic" class="carousel slide" >
                         <!-- Indicators -->
@@ -115,20 +134,14 @@
                         <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
                             <span class="icon-next"></span>
                         </a>
-                    </div>
+                   </div>
+                  </div>
 
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="box">
-                <div class="col-lg-12">
                     <hr>
                     <h3 class="subheading text-center">Positive. Progressive.
                         <strong>Unapologetically Controversial.</strong>
                     </h3>
-        
+
                     <hr>
                     <hr class="visible-xs">
                     <p>We are a pair of social psychologists interested in studying romantic relationships—topics like what makes for a “good” romantic relationship, and how romantic relationships can impact our health and wellbeing. Normally, psychologists like ourselves study relationships by asking couples to complete surveys, but for this study, we are hoping to use a novel form of data collection.</p>
@@ -136,31 +149,12 @@
                 </div>
             </div>
         </div>
-    </div>
     <!-- /.container -->
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <p>Copyright &copy; 2016</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Script to Activate the Carousel -->
-    <script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    })
-    </script>
+     </div>
+    </div>
+  </div>
+</div> <!--end container-->
 
 </body>
 
