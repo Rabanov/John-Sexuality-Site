@@ -4,8 +4,13 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+@font-face {
+    font-family: fontWebly;
+    src: url(weblysleekui.ttf);
+}
+
 body {
-    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "fontWebly", "Open Sans";
     background: url('../img/bg2.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -13,10 +18,11 @@ body {
     -o-background-size: cover;
 }
 
-h1,
-h2,
-h3,
-h4,
+
+h1, {
+    font-size: 3em;
+}
+
 h5,
 h6 {
     text-transform: uppercase;
@@ -25,15 +31,40 @@ h6 {
     letter-spacing: 1px;
 }
 
+h2 {
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
 
+
+h4 {
+    text-transform: uppercase;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 1.5em;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 2em;
+}
 
 p,
 li {
-    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 1.25em;
-    line-height: 1;
+    font-size: 1.6em;
+    line-height: 1.25;
     color: #000;
     text-align: left;
+}
+
+.bullets {
+    font-size: 1.45em;
+    line-height: 1.5;
 }
 
 hr {
@@ -73,7 +104,7 @@ hr {
 
 .brand-name {
     margin: 0;
-    font-size: 4em;
+    font-size: 4.25em;
 }
 
 .tagline-divider {
@@ -84,14 +115,21 @@ hr {
 
 .box {
     margin-bottom: 20px;
-    padding: 30px 15px;
+    padding: 20px 15px;
     background: #fff;
     background: rgba(255,255,255,0.9);
 }
 
 .intro-text {
     text-transform: uppercase;
-    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 6em;
+}
+
+.subheading {
+    text-transform: uppercase;
+    font-size: 2.5em;
     font-weight: 400;
     letter-spacing: 1px;
 }
@@ -114,7 +152,7 @@ footer {
 
 footer p {
     margin: 0;
-    padding: 50px 0;
+    padding: 25px 0;
 }
 
 @media screen and (min-width:768px) {
@@ -172,7 +210,7 @@ footer p {
     }
 
     .nav>li>a {
-        padding: 35px;
+        padding: 15px;
     }
 
     .navbar-nav>li>a {
@@ -198,4 +236,8 @@ footer p {
 
       .infobox {
         padding: 1em;
+}
+
+#accordion .panel-title a {
+    font-size: 1.4em;
 }
