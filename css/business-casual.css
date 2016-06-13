@@ -23,7 +23,6 @@ h1, {
     font-size: 3em;
 }
 
-h5,
 h6 {
     text-transform: uppercase;
     font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -54,6 +53,13 @@ h3 {
     font-size: 2em;
 }
 
+h5 {
+    font-family: "fontWebly", "Open Sans";
+    letter-spacing: 1px;
+    font-size: 2.5em;
+    font-weight: 300;
+}
+
 p,
 li {
     font-size: 1.25em;
@@ -63,7 +69,7 @@ li {
 }
 
 .bullets {
-    font-size: 1.45em;
+    font-size: 1.2em;
     line-height: 1.5;
 }
 
@@ -72,9 +78,19 @@ hr {
     border-color: #999999;
 }
 
+.padded-text{
+  padding: 10px;
+  margin: auto;
+}
+
 .brand,
 .address-bar {
     display: none;
+}
+
+.logo {
+  height: 70px;
+  width: 70px;
 }
 
 .navbar-brand {
@@ -83,7 +99,7 @@ hr {
     letter-spacing: 2px;
 }
 
-.navbar-nav {
+.navbar-nav{
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 3px;
@@ -118,6 +134,7 @@ hr {
     padding: 20px 15px;
     background: #fff;
     background: rgba(255,255,255,0.9);
+
 }
 
 .intro-text {
@@ -240,5 +257,18 @@ footer p {
 }
 
 #accordion .panel-title a {
-    font-size: 1.4em;
+    font-size: 1.3em;
+    line-height: 1.25;
+    font-weight: 500;
+    letter-spacing: -3;
+}
+
+#main-content {
+  width:90%;
+  margin:0 auto;
+  align: centre;
+}
+
+#wrapper {
+  width:100%;
 }
