@@ -50,7 +50,7 @@ a:hover {
   outline: 1;
 }
 
-abbr[title] {
+abbr[panel-body] {
   border-bottom: 1px dotted;
 }
 b,
@@ -207,7 +207,7 @@ th {
   a[href]:after {
     content: " (" attr(href) ")";
   }
-  abbr[title]:after {
+  abbr[panel-body]:after {
     content: " (" attr(title) ")";
   }
   a[href^="#"]:after,
@@ -1589,6 +1589,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  width: 75%;
 }
 @media (min-width: 768px) {
   .container {
@@ -4171,7 +4172,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar {
   position: relative;
   min-height: 30px;
-  margin-bottom: ;
+  margin-bottom: 20px;
   border: 1px solid transparent;
 }
 @media (min-width: 768px) {
