@@ -19,9 +19,7 @@ body {
 }
 
 
-h1, {
-    font-size: 3em;
-}
+
 
 h6 {
     text-transform: uppercase;
@@ -45,12 +43,20 @@ h4 {
     font-size: 1.5em;
 }
 
-h3 {
+h3 {  <!--the cool headings/titles introducing each page-->
     text-transform: uppercase;
     font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
     font-size: 2em;
+}
+
+.subheading { <!--smaller version of h3; use this for sub headings like RA names-->
+  text-transform: uppercase;
+  font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 0.5em;
 }
 
 h5 {
@@ -68,8 +74,9 @@ li {
     text-align: left;
 }
 
+
 .bullets {
-    font-size: 1.2em;
+    font-size: 1em;
     line-height: 1.5;
 }
 
@@ -100,6 +107,7 @@ hr {
 }
 
 .navbar-nav{
+    padding-top: 20px;
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 3px;
@@ -257,10 +265,10 @@ footer p {
 }
 
 #accordion .panel-title a {
-    font-size: 1.3em;
-    line-height: 1.25;
-    font-weight: 500;
-    letter-spacing: -3;
+    font-size: 1.2em;
+    line-height: 1.2;
+    font-weight: 600;
+    letter-spacing: -5;
 }
 
 #main-content {
