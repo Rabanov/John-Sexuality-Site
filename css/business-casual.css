@@ -272,10 +272,6 @@ footer p {
     letter-spacing: -5;
 }
 
-#p a:line{
-  color: brown;
-}
-
 #main-content {
   width:90%;
   margin:0 auto;
@@ -284,4 +280,20 @@ footer p {
 
 #wrapper {
   width:100%;
+}
+
+a:link:not(accordion panel-title a){
+  color: green;
+  text-decoration: none;
+}
+
+a:hover:not(accordion){
+  color: green;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:visited:not(accordion){
+  color: green;
+  text-decoration: none;
 }
