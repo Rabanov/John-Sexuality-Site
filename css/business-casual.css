@@ -98,7 +98,6 @@ hr {
 .logo {
   height: 70px;
   width: 70px;
-  padding-bottom: 10px;
 }
 
 .navbar-brand {
@@ -108,7 +107,6 @@ hr {
 }
 
 .navbar-nav{
-    padding-top: 20px;
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 3px;
@@ -294,6 +292,11 @@ a:hover{
   text-decoration: none;
 }
 
+#nav-text .nav-text a:hover {
+  border:left 3px black;
+  border:right 3px black;
+}
+
 .fancyhr {
   border: 0;
   height: 1px;
@@ -302,4 +305,10 @@ a:hover{
   background-image: -moz-linear-gradient(left, #e6e6e6, #8c8c8c, #4d4d4d, #8c8c8c, #e6e6e6);
   background-image: -ms-linear-gradient(left, #e6e6e6, #8c8c8c, #4d4d4d, #8c8c8c, #e6e6e6);
   background-image: -o-linear-gradient(left, #e6e6e6, #8c8c8c, #4d4d4d, #8c8c8c, #e6e6e6);
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: #ffffff;
+    color: #FFC0CB;
+    border-radius: 5px;
 }
