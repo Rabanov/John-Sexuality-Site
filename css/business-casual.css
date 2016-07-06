@@ -229,7 +229,7 @@ footer p {
 
     .navbar {
         min-height: 0;
-  
+
     }
 
     .navbar-default {
@@ -292,4 +292,14 @@ a:hover{
 
 #bs-example-navbar-collapse-1 .navbar-nav a {
   text-decoration: none;
+}
+
+.fancyhr {
+  border: 0;
+  height: 1px;
+  background: #009900;
+  background-image: -webkit-linear-gradient(left, #e6e6e6, #8c8c8c, #4d4d4d, #8c8c8c, #e6e6e6);
+  background-image: -moz-linear-gradient(left, #e6e6e6, #8c8c8c, #4d4d4d, #8c8c8c, #e6e6e6);
+  background-image: -ms-linear-gradient(left, #e6e6e6, #8c8c8c, #4d4d4d, #8c8c8c, #e6e6e6);
+  background-image: -o-linear-gradient(left, #e6e6e6, #8c8c8c, #4d4d4d, #8c8c8c, #e6e6e6);
 }
