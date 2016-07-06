@@ -98,6 +98,7 @@ hr {
 .logo {
   height: 70px;
   width: 70px;
+  padding-bottom: 10px;
 }
 
 .navbar-brand {
@@ -228,6 +229,7 @@ footer p {
 
     .navbar {
         min-height: 0;
+  
     }
 
     .navbar-default {
@@ -282,18 +284,12 @@ footer p {
   width:100%;
 }
 
-a:link:not(accordion panel-title a){
-  color: green;
-  text-decoration: none;
-}
-
-a:hover:not(accordion){
+a:hover{
   color: green;
   text-decoration: none;
   font-weight: bold;
 }
 
-a:visited:not(accordion){
-  color: green;
+#bs-example-navbar-collapse-1 .navbar-nav a {
   text-decoration: none;
 }
