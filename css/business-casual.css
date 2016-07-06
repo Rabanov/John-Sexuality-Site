@@ -96,8 +96,10 @@ hr {
 }
 
 .logo {
-  height: 70px;
-  width: 70px;
+  height: 50px;
+  width:  50px;
+  padding: 0px !important;
+  border: 0px !important;
 }
 
 .navbar-brand {
@@ -292,6 +294,8 @@ a:hover{
   text-decoration: none;
 }
 
+
+
 #nav-text .nav-text a:hover {
   border:left 3px black;
   border:right 3px black;
@@ -309,6 +313,6 @@ a:hover{
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     background-color: #ffffff;
-    color: #FFC0CB;
+    color: #000000;
     border-radius: 5px;
 }
