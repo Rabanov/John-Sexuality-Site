@@ -11,15 +11,12 @@
 
 body {
     font-family: "fontWebly", "Open Sans";
-    background: url('../img/bg2.jpg') no-repeat center center fixed;
+    background: url('../img/bg3.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
-
-
-
 
 h6 {
     text-transform: uppercase;
@@ -32,8 +29,12 @@ h2 {
     font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
+
 }
 
+.welcome {
+  font-size: 3em;
+}
 
 h4 {
     text-transform: uppercase;
@@ -76,7 +77,7 @@ li {
 
 
 .bullets {
-    font-size: 1em;
+    font-size: 1.1em;
     line-height: 1.5;
 }
 
@@ -98,14 +99,17 @@ hr {
 .logo {
   height: 50px;
   width:  50px;
-  padding: 0px !important;
-  border: 0px !important;
 }
-
 .navbar-brand {
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: 2px;
+}
+
+a:hover{
+  color: green;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .navbar-nav{
@@ -142,7 +146,7 @@ hr {
     margin-bottom: 20px;
     padding: 20px 15px;
     background: #fff;
-    background: rgba(255,255,255,0.9);
+    background: rgba(255,255,255,0.8);
     border-radius: 5px;
 
 }
@@ -238,12 +242,13 @@ footer p {
         background: rgba(255,255,255,0.9);
     }
 
-    .nav>li>a {
-        padding: 15px;
+    .nav>li>a:not(icon) {
+      padding: 15px;
     }
 
     .navbar-nav>li>a {
         line-height: normal;
+        font-size: 1.3em;
     }
 
     .navbar-nav {
@@ -272,6 +277,7 @@ footer p {
     line-height: 1.2;
     font-weight: 600;
     letter-spacing: -5;
+    text-decoration: none;
 }
 
 #main-content {
@@ -284,23 +290,6 @@ footer p {
   width:100%;
 }
 
-a:hover{
-  color: green;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-#bs-example-navbar-collapse-1 .navbar-nav a {
-  text-decoration: none;
-}
-
-
-
-#nav-text .nav-text a:hover {
-  border:left 3px black;
-  border:right 3px black;
-}
-
 .fancyhr {
   border: 0;
   height: 1px;
@@ -311,8 +300,6 @@ a:hover{
   background-image: -o-linear-gradient(left, #e6e6e6, #8c8c8c, #4d4d4d, #8c8c8c, #e6e6e6);
 }
 
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    background-color: #ffffff;
-    color: #000000;
-    border-radius: 5px;
+.menu-label {
+  font-size: 20px;
 }
