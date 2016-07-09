@@ -146,7 +146,7 @@ a:hover{
     margin-bottom: 20px;
     padding: 20px 15px;
     background: #fff;
-    background: rgba(255,255,255,0.8);
+    background: rgba(255,255,255,0.85);
     border-radius: 5px;
 
 }
@@ -268,8 +268,57 @@ footer p {
     }
 }
 
-      .infobox {
-        padding: 1em;
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 1200px) {
+    .welcome {
+      font-size: 1.5em;
+    }
+    .intro-text {
+        font-size: 2em;
+        text-align: center;
+    }
+    .subheading {
+      font-size: 2em;
+    }
+    #landing {
+      font-size: 1.3em;
+    }
+     .navbar-brand {
+       display: none;
+     }
+     p {
+       font-size: 1.1em;
+     }
+
+}
+
+@media only screen and (min-device-width : 767px) and (max-device-width : 991px) {
+    #small-nav{
+      font-size: 95%;
+    }
+    .welcome {
+      font-size: 2em;
+    }
+    .intro-text {
+        font-size: 3em;
+        text-align: center;
+    }
+    .subheading {
+      font-size: 2.5em;
+    }
+    #landing {
+      font-size: 2em;
+    }
+     .navbar-brand {
+       display: none;
+     }
+     p {
+       font-size: 1.3em;
+     }
+}
+
+.infobox {
+  padding: 1em;
 }
 
 #accordion .panel-title a {
@@ -293,7 +342,7 @@ footer p {
 .fancyhr {
   border: 0;
   height: 1px;
-  background: #009900;
+  background: #4d4d4d;
   background-image: -webkit-linear-gradient(left, #e6e6e6, #8c8c8c, #4d4d4d, #8c8c8c, #e6e6e6);
   background-image: -moz-linear-gradient(left, #e6e6e6, #8c8c8c, #4d4d4d, #8c8c8c, #e6e6e6);
   background-image: -ms-linear-gradient(left, #e6e6e6, #8c8c8c, #4d4d4d, #8c8c8c, #e6e6e6);
